@@ -23,5 +23,4 @@ public class UserResource {
 		list.addAll(Arrays.asList(maria, mario));
 		return ResponseEntity.ok().body(list);
 	}
-
 }
